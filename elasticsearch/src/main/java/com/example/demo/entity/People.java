@@ -1,8 +1,8 @@
 package com.example.demo.entity;
 
+import com.example.demo.annotation.ESDocument;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.elasticsearch.annotations.Document;
 
 import java.time.LocalDate;
 
@@ -10,8 +10,8 @@ import java.time.LocalDate;
 /**
  * es model
  */
-@Document(indexName = "objects", type = "people")
 @Data
+@ESDocument(indexAlias = "objects", indexType = "people")
 public class People {
     @Id
     private Long id;

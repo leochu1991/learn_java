@@ -34,7 +34,6 @@
         <spring-web.version>4.3.25.RELEASE</spring-web.version>
         <spring-webmvc.version>4.3.25.RELEASE</spring-webmvc.version>
         <spring-data-commons.version>1.13.23.RELEASE</spring-data-commons.version>
-        <spring-data-elasticsearch.version>2.1.23.RELEASE</spring-data-elasticsearch.version>
         <org.springframework.core.version>3.2.2.RELEASE</org.springframework.core.version>
         <org.springframework.beans.version>3.2.2.RELEASE</org.springframework.beans.version>
     </properties>
@@ -154,13 +153,6 @@
             <groupId>org.springframework</groupId>
             <artifactId>org.springframework.beans</artifactId>
             <version>${org.springframework.beans.version}</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-elasticsearch -->
-        <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-elasticsearch</artifactId>
-            <version>${spring-data-elasticsearch.version}</version>
         </dependency>
 
     </dependencies>

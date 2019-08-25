@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- * elasticsearch handler
+ * es handler
  */
 @Component
 public class ESHandler {

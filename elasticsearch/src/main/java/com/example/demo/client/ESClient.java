@@ -3,7 +3,7 @@ package com.example.demo.client;
 import org.elasticsearch.client.Client;
 import org.elasticsearch.client.transport.TransportClient;
 
-import javax.inject.Inject;
+import javax.annotation.PostConstruct;
 
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.InetSocketTransportAddress;
@@ -14,14 +14,14 @@ import org.springframework.context.annotation.Configuration;
 import java.net.InetAddress;
 
 /**
- * elastic search client
+ * es client
  */
 @Configuration
 public class ESClient {
 
-    private Client client;
+    private static Client client;
 
-    @Inject
+    @PostConstruct
     public void init() throws Exception {
 
         // es集群节点
@@ -43,4 +43,6 @@ public class ESClient {
 
         client = transportClient;
     }
+
+
 }
