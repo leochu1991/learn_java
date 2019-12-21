@@ -3,6 +3,9 @@ package com.example.leetcode._1_two_sum;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 1.两数之和
+ */
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] res = new int[2];
