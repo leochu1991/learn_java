@@ -29,3 +29,12 @@ build/
 
 ### VS Code ###
 .vscode/
+netty/src/main/resources/static/
+netty/src/main/resources/templates/
+springboot/.gitignore
+springboot/.mvn/
+springboot/mvnw
+springboot/mvnw.cmd
+springboot/pom.xml
+springboot/src/
+src/
