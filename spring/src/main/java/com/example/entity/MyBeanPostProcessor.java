@@ -12,14 +12,19 @@ public class MyBeanPostProcessor implements BeanPostProcessor {
 
     private static final Logger logger = LoggerFactory.getLogger(MyBeanPostProcessor.class);
 
+    public MyBeanPostProcessor() {
+        logger.info("【MyBeanPostProcessor构造函数】");
+    }
+
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
-
-        return null;
+        logger.info("【MyBeanPostProcessor#BeanPostProcessor接口】postProcessBeforeInitialization");
+        return bean;
     }
 
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
-        return null;
+        logger.info("【MyBeanPostProcessor#BeanPostProcessor接口】postProcessAfterInitialization");
+        return bean;
     }
 }

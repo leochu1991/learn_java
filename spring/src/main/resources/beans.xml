@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="beanPostProcessor"
+          class="com.example.entity.MyBeanPostProcessor">
+    </bean>
+
+    <bean id="instantiationAwareBeanPostProcessor"
+          class="com.example.entity.MyInstantiationAwareBeanPostProcessor">
+    </bean>
+
+    <bean id="beanFactoryPostProcessor"
+          class="com.example.entity.MyBeanFactoryPostProcessor">
+    </bean>
+
+    <bean id="person" class="com.example.entity.Person"
+          init-method="myInitMethod"
+          destroy-method="myDestroyMethod">
+        <property name="name" value="小明"/>
+        <property name="age" value="22"/>
+    </bean>
+
+</beans>
