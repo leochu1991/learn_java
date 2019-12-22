@@ -11,7 +11,7 @@
     <groupId>com.example</groupId>
     <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    
+
     <name>elasticsearch</name>
     <description>Demo project for Spring Boot</description>
 
@@ -30,7 +30,6 @@
         <java.version>1.8</java.version>
         <elasticsearch.version>5.6.16</elasticsearch.version>
         <transport.version>5.6.16</transport.version>
-        <lombok.version>1.16.22</lombok.version>
         <spring-beans.version>4.3.25.RELEASE</spring-beans.version>
         <spring-web.version>4.3.25.RELEASE</spring-web.version>
         <spring-webmvc.version>4.3.25.RELEASE</spring-webmvc.version>

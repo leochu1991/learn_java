@@ -2,7 +2,8 @@
 
 ## 1.1 bean的生命周期
 
-### 参考：[Spring Bean的生命周期（非常详细）](https://www.cnblogs.com/zrtqsk/p/3735273.html)
+#### 参考文章
++ [Spring Bean的生命周期（非常详细）](https://www.cnblogs.com/zrtqsk/p/3735273.html)
 
 ~~~bash
 【MyBeanFactoryPostProcessor构造函数】
@@ -28,7 +29,8 @@
 
 ## 1.2 bean的循环依赖
 
-### 参考：[]()
+#### 参考文章
++ []()
 
 ## 1.3 AutoWired注解实现原理
 
