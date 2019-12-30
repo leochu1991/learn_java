@@ -10,6 +10,8 @@
         <module name="demo" />
         <module name="demo (1)" />
         <module name="elasticsearch" />
+        <module name="javase" />
+        <module name="kafka" />
         <module name="netty" />
         <module name="redis" />
         <module name="spring" />
@@ -21,6 +23,8 @@
       <module name="demo" target="1.8" />
       <module name="demo (1)" target="1.8" />
       <module name="elasticsearch" target="1.8" />
+      <module name="javase" target="1.8" />
+      <module name="kafka" target="1.8" />
       <module name="netty" target="1.8" />
       <module name="redis" target="1.8" />
       <module name="spring" target="1.8" />
