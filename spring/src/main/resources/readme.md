@@ -34,12 +34,20 @@
 
 ## 1.3 AutoWired注解实现原理
 
+#### 参考文章
++ []()
 
 ## 1.4 Spring事务实现原理
 
+#### 参考文章
++ [Spring，为内部方法新起一个事务](https://www.cnblogs.com/yougewe/p/7466677.html)
 
 ## 1.5 Spring Aop
 
+#### 参考文章
++ []()
 
 ## 1.5 Spring controller单例
 
+#### 参考文章
++ []()
