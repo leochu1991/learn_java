@@ -18,7 +18,7 @@
         <java.version>1.8</java.version>
         <spring-boot-starter-parent.version>1.5.22.RELEASE</spring-boot-starter-parent.version>
         <spring-boot.version>1.5.22.RELEASE</spring-boot.version>
-        <spring-boot-starter-web.version>1.5.22.RELEASE</spring-boot-starter-web.version>
+        <spring-boot-starter-web.version>2.5.12</spring-boot-starter-web.version>
         <spring-boot-starter-test.version>1.5.22.RELEASE</spring-boot-starter-test.version>
         <spring-boot-autoconfigure.version>1.5.22.RELEASE</spring-boot-autoconfigure.version>
         <lombok.version>1.16.22</lombok.version>
