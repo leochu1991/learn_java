@@ -23,7 +23,7 @@
         <spring-boot-autoconfigure.version>1.5.22.RELEASE</spring-boot-autoconfigure.version>
         <slf4j-simple.version>1.7.26</slf4j-simple.version>
         <lombok.version>1.16.22</lombok.version>
-        <fastjson.version>1.2.59</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <javax.inject.version>1</javax.inject.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
